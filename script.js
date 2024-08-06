@@ -262,6 +262,9 @@ bright_span.addEventListener('click', (event) => {
     else {
         bright_drop_div.style.display = 'none';
     }
+    if (acc_div.style.display === 'block') {
+        acc_div.style.display = 'none';
+    }
 })
 document.body.addEventListener('click', () => {
     if (bright_drop_div.style.display === 'block') {
@@ -280,9 +283,13 @@ acc_click.addEventListener('click', (event) => {
       else {
           acc_div.style.display = 'none';
       }
+      if (bright_drop_div.style.display === 'block') {
+        bright_drop_div.style.display = 'none';
+    }
   })
   document.body.addEventListener('click', () => {
       if (acc_div.style.display === 'block') {
           acc_div.style.display = 'none';
       }
   });
+  
