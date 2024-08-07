@@ -35,6 +35,41 @@ let bright_elem =  document.querySelector('.bright')
 let bright_span = document.querySelector('.bright_span')
 let ham_span = document.querySelector('.hamburger')
 let ham_span_img = document.querySelector('.ham_img')
+let left_div = document.querySelector('.left_side')
+let right_div = document.querySelector('.right_side')
+let color_page = document.querySelector('.color_html_parent')
+let hero_div = document.querySelector('.hero_section')
+let dash_elem = document.querySelector('.dashboard')
+let main_elem = document.querySelector('.main_container')
+let typo_page = document.querySelector('.typography_page')
+let foot_elem = document.querySelector('.footer')
+
+
+let previous_html =  hero_div.innerHTML ;
+
+color_elem.addEventListener('click', () => {
+  
+    hero_div.innerHTML = color_page.innerHTML;
+  
+  
+ });
+
+ color2_elem.addEventListener('click', () => {
+   
+     hero_div.innerHTML = typo_page.innerHTML;
+  });
+
+dash_elem.addEventListener('click', () => {
+
+    hero_div.innerHTML = previous_html
+
+ });
+
+ 
+
+
+
+
 
 
 color_elem.addEventListener('mouseover', () => {
@@ -129,7 +164,7 @@ left_arrow_img.addEventListener('mouseover', () =>{
 left_arrow_img.addEventListener('mouseout', () =>{
     left_arrow_img.src = 'assets/arrow_left.svg'
 })
-drop_down_svg.addEventListener('click', () =>{
+base_div.addEventListener('click', () =>{
     if (base_ul.style.display === 'none' || base_ul.style.display === '') {
         base_ul.style.display = 'block';
         drop_down_svg.src = 'assets/arrow_up.svg'
@@ -140,7 +175,7 @@ drop_down_svg.addEventListener('click', () =>{
     }
     
 })
-location_down_svg.addEventListener('click', () =>{
+button_div.addEventListener('click', () =>{
     if (button_ul.style.display === 'none' || button_ul.style.display === '') {
         button_ul.style.display = 'block';
         location_down_svg.src = 'assets/arrow_up.svg'
@@ -151,7 +186,7 @@ location_down_svg.addEventListener('click', () =>{
     }
     
 })
-form_down_svg.addEventListener('click', () =>{
+form_div.addEventListener('click', () =>{
     if (form_ul.style.display === 'none' || form_ul.style.display === '') {
         form_ul.style.display = 'block';
         form_down_svg.src = 'assets/arrow_up.svg'
@@ -162,7 +197,7 @@ form_down_svg.addEventListener('click', () =>{
     }
     
 })
-star_down_svg.addEventListener('click', () =>{
+star_div.addEventListener('click', () =>{
     if (star_ul.style.display === 'none' || star_ul.style.display === '') {
         star_ul.style.display = 'block';
         star_down_svg.src = 'assets/arrow_up.svg'
@@ -173,7 +208,7 @@ star_down_svg.addEventListener('click', () =>{
     }
     
 })
-bell_down_svg.addEventListener('click', () =>{
+bell_div.addEventListener('click', () =>{
     if (bell_ul.style.display === 'none' || bell_ul.style.display === '') {
         bell_ul.style.display = 'block';
         bell_down_svg.src = 'assets/arrow_up.svg'
@@ -184,7 +219,7 @@ bell_down_svg.addEventListener('click', () =>{
     }
     
 })
-page_down_svg.addEventListener('click', () =>{
+page_div.addEventListener('click', () =>{
     if (page_ul.style.display === 'none' || page_ul.style.display === '') {
         page_ul.style.display = 'block';
         page_down_svg.src = 'assets/arrow_up.svg'
@@ -208,9 +243,13 @@ ham_span.addEventListener('mouseover', () => {
     ham_span.style.cursor = 'pointer'
 
 })
+
 ham_span.addEventListener('mouseout', () => {
     ham_span_img.src = 'assets/asset 22.svg'
 })
+
+
+
 
 
 let bright_drop_div = document.querySelector('.brightness_dropdown')
