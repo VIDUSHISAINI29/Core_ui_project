@@ -311,6 +311,10 @@ document.body.addEventListener('click', () => {
     }
 });
 
+bright_drop_div.addEventListener('click', (event) => {
+    event.stopPropagation();
+});
+
 
 
 acc_click.addEventListener('click', (event) => {
@@ -331,4 +335,181 @@ acc_click.addEventListener('click', (event) => {
           acc_div.style.display = 'none';
       }
   });
-  
+
+  acc_div.addEventListener('click', (event) => {
+    event.stopPropagation();
+});
+
+ham_span.addEventListener('click', () =>{
+    if (left_div.style.display === 'none') {
+        right_div.style.width = '83%';
+        left_div.style.display = 'flex';
+        left_div.style.width = '17%'
+    } else{
+        right_div.style.width = '100%';
+        left_div.style.display = 'none';
+    }
+        
+    
+})
+
+  const light_elem = document.querySelector('.sun')
+  const dark_elem = document.querySelector('.moon')
+  const auto_elem = document.querySelector('.full_moon')
+  const bright_svg_elem = document.querySelector('.bright_theme')
+  const dark_svg_elem = document.querySelector('.dark_theme')
+  const auto_svg_elem = document.querySelector('.auto_theme')
+  const color_row = document.querySelector('.colour_boxes_row')
+
+
+
+
+  dark_elem.addEventListener('click', () => {
+    bright_svg_elem.src = 'assets/bright_replace.svg'
+    light_elem.style.backgroundColor = '#ffffff'
+    light_elem.style.color = '#565f6a'
+    dark_elem.style.color = '#fff'
+    dark_elem.style.backgroundColor = '#5856d6'
+    dark_svg_elem.src = 'assets/dark_replace.svg'
+
+    right_div.style.backgroundColor = '#212631'
+    color_row.style.backgroundColor = '#212631'
+    
+    light_elem.addEventListener('mouseover', () =>{
+     light_elem.style.backgroundColor = '#f3f4f7'
+     light_elem.style.color = '#565f6a'
+        bright_svg_elem.src = 'assets/bright_replace.svg'
+    })
+    light_elem.addEventListener('mouseout', () =>{
+        light_elem.style.backgroundColor = '#fff'
+        light_elem.style.color = '#565f6a'
+           bright_svg_elem.src = 'assets/bright_replace.svg'
+    })
+    auto_elem.style.backgroundColor = '#ffffff'
+    auto_elem.style.color = '#565f6a'
+    auto_svg_elem.src = 'assets/auto.svg'
+   
+       dark_elem.addEventListener('mouseout', () =>{
+        dark_elem.style.backgroundColor = '#5856d6'
+        dark_elem.style.color = '#fff'
+        dark_svg_elem.src = 'assets/dark_replace.svg'
+       })
+       dark_elem.addEventListener('mouseover', () =>{
+        dark_elem.style.backgroundColor = '#5856d6'
+        dark_elem.style.color = '#fff'
+        dark_svg_elem.src = 'assets/dark_replace.svg'
+       })
+       auto_elem.addEventListener('mouseover', () =>{
+        auto_elem.style.backgroundColor = '#f3f4f7'
+        auto_elem.style.color = '#565f6a'
+        auto_svg_elem.src = 'assets/auto.svg'
+       })
+       auto_elem.addEventListener('mouseout', () =>{
+        auto_elem.style.backgroundColor = '#fff'
+        auto_elem.style.color = '#565f6a'
+        auto_svg_elem.src = 'assets/auto.svg'
+        
+       })
+  })
+
+  auto_elem.addEventListener('click', () =>{
+     auto_elem.style.backgroundColor = '#5856d6'
+     auto_elem.style.color = '#fff'
+      auto_svg_elem.src ='assets/auto_replace.svg'
+      dark_elem.style.backgroundColor = '#fff'
+      dark_elem.style.color = '#565f6a'
+      dark_svg_elem.src = 'assets/dark.svg'
+      light_elem.style.backgroundColor = '#ffffff'
+    light_elem.style.color = '#565f6a'
+    bright_svg_elem.src = 'assets/bright_replace.svg'
+
+     right_div.style.backgroundColor = '#f3f4f7'
+     color_row.style.backgroundColor = '#f3f4f7'
+   
+      light_elem.addEventListener('mouseover', () =>{
+        light_elem.style.backgroundColor = '#f3f4f7'
+       })
+       light_elem.addEventListener('mouseout', () =>{
+        light_elem.style.backgroundColor = '#fff'
+       })
+       dark_elem.addEventListener('mouseover', () =>{
+        dark_elem.style.backgroundColor = '#f3f4f7'
+        dark_elem.style.color = '#565f6a'
+        dark_svg_elem.src = 'assets/dark.svg'
+       })
+       dark_elem.addEventListener('mouseout', () =>{
+        dark_elem.style.backgroundColor = '#fff'
+        dark_elem.style.color = '#565f6a'
+        dark_svg_elem.src = 'assets/dark.svg'
+        
+       })
+       auto_elem.addEventListener('mouseout', () =>{
+        auto_elem.style.backgroundColor = '#5856d6'
+        auto_elem.style.color = '#fff'
+        auto_svg_elem.src = 'assets/auto_replace.svg'
+       })
+       auto_elem.addEventListener('mouseover', () =>{
+        auto_elem.style.backgroundColor = '#5856d6'
+        auto_elem.style.color = '#fff'
+        auto_svg_elem.src = 'assets/auto_replace.svg'
+       })
+       light_elem.addEventListener('mouseover', () =>{
+        light_elem.style.backgroundColor = '#f3f4f7'
+        light_elem.style.color = '#565f6a'
+           bright_svg_elem.src = 'assets/bright_replace.svg'
+       })
+       light_elem.addEventListener('mouseout', () =>{
+           light_elem.style.backgroundColor = '#fff'
+           light_elem.style.color = '#565f6a'
+              bright_svg_elem.src = 'assets/bright_replace.svg'
+       })
+  })
+
+    light_elem.addEventListener('click', () => {
+        light_elem.style.color = '#fff'
+        light_elem.style.backgroundColor = '#5856d6'
+        bright_svg_elem.src = 'assets/bright_theme.svg'
+        dark_svg_elem.src = 'assets/dark.svg'
+        dark_elem.style.backgroundColor = '#ffffff'
+        dark_elem.style.color = '#565f6a'
+        auto_svg_elem.src = 'assets/auto.svg'
+        auto_elem.style.backgroundColor = '#ffffff'
+        auto_elem.style.color = '#565f6a'
+
+        right_div.style.backgroundColor = '#f3f4f7'
+          color_row.style.backgroundColor = '#f3f4f7'
+
+        dark_elem.addEventListener('mouseover', () =>{
+            dark_elem.style.backgroundColor = '#f3f4f7'
+            dark_elem.style.color = '#565f6a'
+            dark_svg_elem.src = 'assets/dark.svg'
+           })
+           dark_elem.addEventListener('mouseout', () =>{
+            dark_elem.style.backgroundColor = '#fff'
+            dark_elem.style.color = '#565f6a'
+            dark_svg_elem.src = 'assets/dark.svg'
+            
+           })
+           auto_elem.addEventListener('mouseover', () =>{
+            auto_elem.style.backgroundColor = '#f3f4f7'
+            auto_elem.style.color = '#565f6a'
+            auto_svg_elem.src = 'assets/auto.svg'
+           })
+           auto_elem.addEventListener('mouseout', () =>{
+            auto_elem.style.backgroundColor = '#fff'
+            auto_elem.style.color = '#565f6a'
+            auto_svg_elem.src = 'assets/auto.svg'
+            
+           })
+
+           light_elem.addEventListener('mouseout', () =>{
+            light_elem.style.backgroundColor = '#5856d6'
+            light_elem.style.color = '#fff'
+            bright_svg_elem.src = 'assets/bright_theme.svg'
+           })
+           light_elem.addEventListener('mouseover', () =>{
+            light_elem.style.backgroundColor = '#5856d6'
+            light_elem.style.color = '#fff'
+            bright_svg_elem.src = 'assets/bright_theme.svg'
+           })
+    })
