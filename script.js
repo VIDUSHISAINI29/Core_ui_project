@@ -73,7 +73,7 @@ dash_elem.addEventListener('click', () => {
 
 
 color_elem.addEventListener('mouseover', () => {
-    drop_elem.src = 'asset_replace.svg';
+    drop_elem.src = 'assets/asset_replace.svg';
 })
 color_elem.addEventListener('mouseout', () => {
     drop_elem.src = 'assets/asset 13.svg';
@@ -88,27 +88,27 @@ color2_elem.addEventListener('mouseout', () => {
 
 base_div.addEventListener('mouseover', () => {
     base_img.src = 'assets/base_replace.svg';
-    drop_down_svg.src = 'dropdown_replace.svg'
+    drop_down_svg.src = 'assets/dropdown_replace.svg'
 })
 base_div.addEventListener('mouseout', () => {
     base_img.src = 'assets/asset 15.svg';
-    drop_down_svg.src = 'dropdown.svg'
+    drop_down_svg.src = 'assets/dropdown.svg'
 })
 button_div.addEventListener('mouseover', () => {
     button_img.src = 'assets/button_replace.svg';
-    location_down_svg.src = 'dropdown_replace.svg'
+    location_down_svg.src = 'assets/dropdown_replace.svg'
 })
 button_div.addEventListener('mouseout', () => {
     button_img.src = 'assets/asset 16.svg';
-    location_down_svg.src = 'dropdown.svg'
+    location_down_svg.src = 'assets/dropdown.svg'
 })
 form_div.addEventListener('mouseover', () => {
     form_img.src = 'assets/form_replace.svg';
-    form_down_svg.src = 'dropdown_replace.svg'
+    form_down_svg.src = 'assets/dropdown_replace.svg'
 })
 form_div.addEventListener('mouseout', () => {
     form_img.src = 'assets/asset 17.svg';
-    form_down_svg.src = 'dropdown.svg'
+    form_down_svg.src = 'assets/dropdown.svg'
 })
 chart_div.addEventListener('mouseover', () => {
     chart_img.src = 'assets/chart_replace.svg';
@@ -120,22 +120,22 @@ chart_div.addEventListener('mouseout', () => {
 })
 star_div.addEventListener('mouseover', () => {
     star_img.src = 'assets/star_replace.svg';
-    star_down_svg.src = 'dropdown_replace.svg'
+    star_down_svg.src = 'assets/dropdown_replace.svg'
 
 })
 star_div.addEventListener('mouseout', () => {
     star_img.src = 'assets/asset 19.svg';
-    star_down_svg.src = 'dropdown.svg'
+    star_down_svg.src = 'assets/dropdown.svg'
 
 })
 bell_div.addEventListener('mouseover', () => {
     bell_img.src = 'assets/bell_replace.svg';
-    bell_down_svg.src = 'dropdown_replace.svg';
+    bell_down_svg.src = 'assets/dropdown_replace.svg';
 
 })
 bell_div.addEventListener('mouseout', () => {
     bell_img.src = 'assets/asset 20.svg';
-    bell_down_svg.src = 'dropdown.svg';
+    bell_down_svg.src = 'assets/dropdown.svg';
 
 })
 calculator_div.addEventListener('mouseover', () => {
@@ -150,12 +150,12 @@ calculator_div.addEventListener('mouseout', () => {
 })
 page_div.addEventListener('mouseover', () => {
     page_img.src = 'assets/star_replace.svg';
-    page_down_svg.src = 'dropdown_replace.svg';
+    page_down_svg.src = 'assets/dropdown_replace.svg';
 
 })
 page_div.addEventListener('mouseout', () => {
     page_img.src = 'assets/asset 19.svg';
-    page_down_svg.src = 'dropdown.svg';
+    page_down_svg.src = 'assets/dropdown.svg';
 
 })
 left_arrow_img.addEventListener('mouseover', () => {
@@ -171,7 +171,7 @@ base_div.addEventListener('click', () => {
     }
     else {
         base_ul.style.display = 'none';
-        drop_down_svg.src = 'dropdown.svg'
+        drop_down_svg.src = 'assets/dropdown.svg'
     }
 
 })
@@ -182,7 +182,7 @@ button_div.addEventListener('click', () => {
     }
     else {
         button_ul.style.display = 'none';
-        location_down_svg.src = 'dropdown.svg'
+        location_down_svg.src = 'assets/dropdown.svg'
     }
 
 })
@@ -193,7 +193,7 @@ form_div.addEventListener('click', () => {
     }
     else {
         form_ul.style.display = 'none';
-        form_down_svg.src = 'dropdown.svg'
+        form_down_svg.src = 'assets/dropdown.svg'
     }
 
 })
@@ -204,7 +204,7 @@ star_div.addEventListener('click', () => {
     }
     else {
         star_ul.style.display = 'none';
-        star_down_svg.src = 'dropdown.svg'
+        star_down_svg.src = 'assets/dropdown.svg'
     }
 
 })
@@ -215,7 +215,7 @@ bell_div.addEventListener('click', () => {
     }
     else {
         bell_ul.style.display = 'none';
-        bell_down_svg.src = 'dropdown.svg'
+        bell_down_svg.src = 'assets/dropdown.svg'
     }
 
 })
@@ -226,7 +226,7 @@ page_div.addEventListener('click', () => {
     }
     else {
         page_ul.style.display = 'none';
-        page_down_svg.src = 'dropdown.svg'
+        page_down_svg.src = 'assets/dropdown.svg'
     }
 
 })
@@ -513,3 +513,5 @@ light_elem.addEventListener('click', () => {
         bright_svg_elem.src = 'assets/bright_theme.svg'
     })
 })
+
+

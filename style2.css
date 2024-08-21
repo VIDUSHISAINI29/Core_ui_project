@@ -1,0 +1,229 @@
+@media screen and (max-width: 1400px){
+    .left_side{
+        width: 20%;
+    }
+    .balls{
+        margin-bottom: 20px;
+        margin-left: 50px;
+      }
+      .b_balls{
+        margin-bottom: 20px;
+        margin-left: 18px;
+      }
+      .y_balls{
+        margin-bottom: 15px;
+        margin-left: 32px;
+      }
+      .r_balls{
+        margin-bottom: 16px;
+        margin-left: 50px;
+    
+      }
+      .top_gap{
+        margin-top: 10px;
+      }
+      .purple{
+        width: 23.4%;
+      }
+      .fb_details{
+        width: 23.4%;
+      }
+      .color_sample{
+        width:74%;
+        height: 120px;
+      }
+}
+@media screen and (max-width: 1200px){
+
+    .left_side{
+        width: 21.5%;
+    }
+    .balls{
+        margin-bottom: 20px;
+        margin-left: 80px;
+      }
+      .b_balls{
+        margin-bottom: 20px;
+        margin-left: 48px;
+      }
+      .y_balls{
+        margin-bottom: 15px;
+        margin-left: 62px;
+      }
+      .r_balls{
+        margin-bottom: 16px;
+        margin-left: 80px;
+      }
+      .top_gap{
+        margin-top: 27px;
+      }
+    .purple{
+        width: 31.5%;
+      }
+      .fb_details{
+        width: 31.5%;
+      }
+      .color_sample{
+        width:70%;
+        height: 90px;
+      }
+   
+    .color_span{
+        font-size: 12px;
+    }
+    .user_text1{
+        font-size: 13px;
+    }
+    .analysis_info span:nth-Child(1){
+        font-size: 13px;
+    }
+    .analysis_info span:nth-Child(2){
+        font-size: 13px;
+    }
+    .green_google1 span:nth-Child(1){
+        font-size: 13px;
+    }
+    .male_icon span:nth-Child(1){
+        font-size: 13px;
+    }
+    .user_text2{
+        font-size: 13.5px;
+    }
+    .acc_span{
+        font-size: 12px;
+    }
+    .acc_spans{
+        font-size: 12px;
+    }
+    .account_dropdown{
+        width: 15%;
+        top: 80px;
+    }
+    .brightness_dropdown{
+        width: 15%;
+        top: 80px;
+    }
+    .same_new{
+        width: 23px;
+        font-size: 11px;
+    }
+    .largest_graph{
+        width: 94%;
+    }
+    .graph_analytics{
+        width: 94%;
+    }
+    .sale_review_head{
+        width: 94%;
+    }
+    .sale_review_container{
+        width: 94%;
+    }
+    .male_percent_span{
+        font-size: 13px;
+    }
+    .user_span{
+        font-size: 14px;
+    }
+    .activity_span{
+        font-size: 14px;
+    }
+    .typo_lastbox_div{
+        font-size: 14px;
+    }
+   
+}
+@media screen and (max-width: 992px){
+    .left_side{
+        width: 26%;
+    }
+    .balls{
+        margin-bottom: 20px;
+        margin-left: 122px;
+      }
+      .b_balls{
+        margin-bottom: 20px;
+        margin-left: 90px;
+      }
+      .y_balls{
+        margin-bottom: 15px;
+        margin-left: 102px;
+      }
+      .r_balls{
+        margin-bottom: 16px;
+        margin-left: 122px;
+      }
+    .purple{
+        width: 48%;
+      }
+      .fb_details{
+        width: 48%;
+      }
+      .color_sample{
+        width:74%;
+        height: 130px;
+      }
+      .color_sample_span{
+        width: 28%;
+        margin: 20px 15px;
+      }
+    .color_span{
+        font-size: 12px;
+    }
+    .color_css_992{
+        width: 93%;
+    }
+    .traffic{
+        width: 25%;
+    }
+    .time{
+        font-size: 12px;
+    }
+  
+    .user_text2{
+        font-size: 9.5px;
+    }
+    .user_text1{
+        font-size: 9.5px;
+    }
+    .user_span{
+        font-size: 12px;
+    }
+    .activity_span{
+        font-size: 12px;
+    }
+    .usage_width{
+        padding-top: 3px;
+    }
+    .typography_headings_box1_head{
+        width: 94%;
+    }
+    .typography_headings_box1{
+        width: 94%;
+    }
+    .acc_span{
+        font-size: 12px;
+    }
+    .acc_spans{
+        font-size: 12px;
+    }
+    .account_dropdown{
+        width: 19%;
+        top: 55px;
+    }
+    .brightness_dropdown{
+        width: 19%;
+        top: 55px;
+    }
+    .same_new{
+        width: 20px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .bounce{
+        display: none;
+    }
+    .analysis_info{
+        width: 25%;
+    }
+}

@@ -87,7 +87,7 @@ top: 0;
 
 }
 
-.new {
+.new{
     background-color: #5856d6;
     color: white;
     font-weight: 700;
@@ -95,7 +95,7 @@ top: 0;
     border-radius: 6px;
     width: 40px;
     padding: 2.5px 4.5px;
-    margin-left: 55px;
+    margin-left: 40px;
 }
 
 .theme {
@@ -152,15 +152,15 @@ top: 0;
 }
 
 .drop_down {
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 .location_dropdown {
-    margin-left: 107px;
+    margin-left: 88px;
 }
 
 .form_dropdown {
-    margin-left: 110px;
+    margin-left: 91px;
 }
 
 .color3 {
@@ -184,11 +184,11 @@ top: 0;
 }
 
 .star_dropdown {
-    margin-left: 118px;
+    margin-left: 99px;
 }
 
 .bell_dropdown {
-    margin-left: 69px;
+    margin-left:50px;
 }
 
 .widget_new {
@@ -199,7 +199,7 @@ top: 0;
     border-radius: 6px;
     width: 40px;
     padding: 2.5px 4.5px;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 .page_dropdown {
